@@ -28,24 +28,17 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-				<field name="active_on_page" type="checkboxes" default="com_content" label="PLG_SYSTEM_VINAORA_VIETALIAS_FIELD_ACTIVE_ON_PAGE" description="PLG_SYSTEM_VINAORA_VIETALIAS_FIELD_ACTIVE_ON_PAGE_DESC" >
-					<option value="com_content">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_ARTICLE_MANAGER</option>
-					<option value="com_categories">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_CATEGORY_MANAGER</option>
-					<option value="com_menus">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_MENU_MANAGER</option>
-					<option value="com_banners">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_BANNERS</option>
-					<option value="com_contact">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_CONTACT</option>
-					<option value="com_newsfeeds">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_NEWSFEEDS</option>
-					<option value="com_weblinks">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_WEBLINKS</option>
+				<field name="active_on" type="radio" default="1" label="PLG_SYSTEM_VINAORA_VIETALIAS_FIELD_ACTIVE_ON" description="PLG_SYSTEM_VINAORA_VIETALIAS_FIELD_ACTIVE_ON_DESC" >
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
 				</field>
-				<field name="enable_ajax" type="checkboxes" default="com_content" label="PLG_SYSTEM_VINAORA_VIETALIAS_FIELD_AUTO_COMPLETE" description="PLG_SYSTEM_VINAORA_VIETALIAS_FIELD_AUTO_COMPLETE_DESC" >
-					<option value="com_content">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_ARTICLE_MANAGER</option>
-					<option value="com_categories">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_CATEGORY_MANAGER</option>
-					<option value="com_menus">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_MENU_MANAGER</option>
-					<option value="com_banners">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_BANNERS</option>
-					<option value="com_contact">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_CONTACT</option>
-					<option value="com_newsfeeds">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_NEWSFEEDS</option>
-					<option value="com_weblinks">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_WEBLINKS</option>
+				<field name="active_on_specific" type="textarea" rows="7" cols="30" default="com_content,com_categories,com_menus,com_banners,com_contact,com_newsfeeds,com_weblinks" label="PLG_SYSTEM_VINAORA_VIETALIAS_FIELD_ACTIVE_ON_SPECIFIC" description="PLG_SYSTEM_VINAORA_VIETALIAS_FIELD_ACTIVE_ON_SPECIFIC_DESC" />
+				<field name="auto_complete" type="radio" default="1" label="PLG_SYSTEM_VINAORA_VIETALIAS_FIELD_AUTO_COMPLETE" description="PLG_SYSTEM_VINAORA_VIETALIAS_FIELD_AUTO_COMPLETE_DESC" >
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
 				</field>
+				<field name="auto_complete_on_specific" type="textarea" rows="7" cols="30" default="com_abc,com_xyz" label="PLG_SYSTEM_VINAORA_VIETALIAS_FIELD_AUTO_COMPLETE_ON_SPECIFIC" description="PLG_SYSTEM_VINAORA_VIETALIAS_FIELD_AUTO_COMPLETE_ON_SPECIFIC_DESC" />
+
 			</fieldset>
 		</fields>
 	</config>

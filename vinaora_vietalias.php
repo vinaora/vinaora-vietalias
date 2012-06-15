@@ -33,9 +33,11 @@ class plgSystemVinaora_VietAlias extends JPlugin
 
 		if ( $this->layout != 'edit') return;
 		
-		$active = $this->params->get('active_on_page');
+		$active = (bool) $this->params->get('active_on');
+		$pages	= $this->params->get('active_on_specific');
 		
-		if( !empty($active) && in_array($this->option, $active) ){
+		if( $active || (strpos($pages, $this->option) !== false) )
+		{
 			require_once dirname(__FILE__).DS.'output.php';
 		}
 
@@ -46,9 +48,11 @@ class plgSystemVinaora_VietAlias extends JPlugin
 		
 		if ( $this->layout != 'edit') return false;
 		
-		$enable_ajax = $this->params->get('enable_ajax');
+		$auto_complete	= (bool) $this->params->get('auto_complete');
+		$pages			= $this->params->get('auto_complete_on_specific');
 		
-		if( !empty($enable_ajax) && in_array($this->option, $enable_ajax) ){
+		if( $auto_complete || (strpos($pages, $this->option) !== false) )
+		{
 			$document = &JFactory::getDocument();
 			$document->addScript( rtrim(JURI::root( true ), '/').'/media/plg_system_vinaora_vietalias/js/vinaora_vietalias.js' );
 		}
