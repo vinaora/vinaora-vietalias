@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="1.7.0" method="upgrade" group="system">
+	<name>Vinaora Vietnamese Alias</name>
+	<author>VINAORA</author>
+	<creationDate>2011-07-05</creationDate>
+	<copyright>Copyright (C) 2010-2011 VINAORA. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@vinaora.com</authorEmail>
+	<authorUrl>http://vinaora.com</authorUrl>
+	<version>1.7.0</version>
+	<description>PLG_SYSTEM_VINAORA_VIETALIAS_DESC</description>
+	<files>
+		<filename>index.html</filename>
+		<filename plugin="vinaora_vietalias">vinaora_vietalias.php</filename>
+		<filename>vinaora_vietalias.xml</filename>
+	</files>
+	<media folder="media" destination="plg_system_vinaora_vietalias">
+		<filename>index.html</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</media>
+	<languages>
+		<language tag="en-GB">language/en-GB.plg_system_vinaora_vietalias.ini</language>
+		<language tag="en-GB">language/en-GB.plg_system_vinaora_vietalias.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="active_on_page" type="checkboxes" default="com_content" label="PLG_SYSTEM_VINAORA_VIETALIAS_ACTIVE_ON_PAGE" description="PLG_SYSTEM_VINAORA_VIETALIAS_ACTIVE_ON_PAGE_DESC" >
+					<option value="com_content">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_ARTICLE_MANAGER</option>
+					<option value="com_categories">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_CATEGORY_MANAGER</option>
+					<option value="com_menus">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_MENU_MANAGER</option>
+					<option value="com_banners">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_BANNERS</option>
+					<option value="com_contact">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_CONTACT</option>
+					<option value="com_newsfeeds">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_NEWSFEEDS</option>
+					<option value="com_weblinks">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_WEBLINKS</option>
+				</field>
+				<field name="enable_ajax" type="checkboxes" default="com_content" label="PLG_SYSTEM_VINAORA_VIETALIAS_AUTO_COMPLETE" description="PLG_SYSTEM_VINAORA_VIETALIAS_AUTO_COMPLETE_DESC" >
+					<option value="com_content">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_ARTICLE_MANAGER</option>
+					<option value="com_categories">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_CATEGORY_MANAGER</option>
+					<option value="com_menus">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_MENU_MANAGER</option>
+					<option value="com_banners">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_BANNERS</option>
+					<option value="com_contact">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_CONTACT</option>
+					<option value="com_newsfeeds">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_NEWSFEEDS</option>
+					<option value="com_weblinks">PLG_SYSTEM_VINAORA_VIETALIAS_OPTION_WEBLINKS</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
