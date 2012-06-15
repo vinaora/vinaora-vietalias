@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" version="2.5.0" group="system" method="upgrade">
-	<name>Vinaora Vietnamese Alias</name>
+	<name>System - Vinaora Vietnamese Alias</name>
 	<author>VINAORA</author>
 	<creationDate>2012-06-17</creationDate>
 	<copyright>Copyright (C) 2010-2012 VINAORA. All rights reserved.</copyright>
@@ -11,9 +11,11 @@
 	<description>PLG_SYSTEM_VINAORA_VIETALIAS_XML_DESCRIPTION</description>
 	<files>
 		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>output.php</filename>
 		<filename plugin="vinaora_vietalias">vinaora_vietalias.php</filename>
 	</files>
-	<media folder="media" destination="vinaora_vietalias">
+	<media folder="media" destination="plg_system_vinaora_vietalias">
 		<filename>index.html</filename>
 		<folder>css</folder>
 		<folder>images</folder>

@@ -1,36 +1,42 @@
-/**
- * @version		$Id: vinaora_vietalias.js 2012-06-17 vinaora $
+ /**
+ * @version		$Id: vinaora_vietalias-uncompressed.js 2012-06-17 vinaora $
  * @package		Vinaora Vietnamese Alias
  * @subpackage	plg_system_vinaora_vietalias
- * @copyright	Copyright (C) 2010 - 2012 VINAORA. All rights reserved.
+ * @copyright	Copyright (C) 2010-2012 VINAORA. All rights reserved.
  * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ *
  * @website		http://vinaora.com
  * @twitter		http://twitter.com/vinaora
  * @facebook	http://facebook.com/vinaora
+ * @google+		https://plus.google.com/111142324019789502653
+ *
+ * @note		See more details >> http://en.wikipedia.org/wiki/Vietnamese_alphabet
  */
 
-// See more details >> http://en.wikipedia.org/wiki/Vietnamese_alphabet
- 
-// Remove 5 Vietnamese accent / tone marks if has Combining Unicode characters
+/**
+ * Remove 5 Vietnamese accent / tone marks if has Combining Unicode characters
+ * Tone marks: Grave (`), Acute(´), Tilde (~), Hook Above (?), Dot Bellow(.)
+ */
 function vt_remove_vietnamese_accent(str)
 {
-	// Remove 5 Vietnamese accent / tone marks: Grave (`), Acute(´), Tilde (~), Hook Above (?), Dot Bellow(.)
 	str = str.replace(/[\u0300\u0301\u0303\u0309\u0323]/g,"");
 	return str;
 };
 
-// Remove Special characters
+/** 
+ * Remove or Replace special symbols with spaces
+ */
 function vt_remove_special_characters(str)
 {
-	// Replace special symbols with spaces
 	str = str.replace(/[\u0021-\u002D\u002F\u003A-\u0040\u005B-\u0060\u007B-\u007E\u00A1-\u00BF]/g," ");
 	return str;
 };
 
-// Replace vietnamese characters
+/** 
+ * Remove or Replace special symbols with spaces
+ */
 function vt_replace_vietnamese_characters(str)
 {
-	// Replace Vietnamese vowels with diacritic and Letter D with Stroke with corresponding English characters
 	str = str.replace(/[\u00C0-\u00C3\u00E0-\u00E3\u0102\u0103\u1EA0-\u1EB7]/g,"a");
 	str = str.replace(/[\u00C8-\u00CA\u00E8-\u00EA\u1EB8-\u1EC7]/g,"e");
 	str = str.replace(/[\u00CC\u00CD\u00EC\u00ED\u0128\u0129\u1EC8-\u1ECB]/g,"i");
@@ -39,6 +45,18 @@ function vt_replace_vietnamese_characters(str)
 	str = str.replace(/[\u00DD\u00FD\u1EF2-\u1EF9]/g,"y");
 	str = str.replace(/[\u0110\u0111]/g,"d");
 
+	return str;
+};
+
+/**
+ * Create a safe Vietnamese string
+ */
+function vt_safe_vietnamese(str)
+{
+	str = vt_remove_vietnamese_accent(str);
+	str = vt_remove_special_characters(str);
+	str = vt_replace_vietnamese_characters(str);
+	
 	// Replace spaces with hyphen minus (-)
 	str = str.replace(/\s+/g,"-");
 
@@ -53,14 +71,6 @@ function vt_replace_vietnamese_characters(str)
 
 	// Convert to Lowercase
 	str = str.toLowerCase();
-	return str;
-};
-
-function vt_safe_vietnamese(str)
-{
-	str = vt_remove_vietnamese_accent(str);
-	str = vt_remove_special_characters(str);
-	str = vt_replace_vietnamese_characters(str);
 
 	return str;
 };
