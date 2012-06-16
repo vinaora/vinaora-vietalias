@@ -40,4 +40,9 @@ Chú giải
 * (3): Sử dụng Ajax + thư viện Mootools của Joomla.
 * (4): Nhiều plugin/tool bỏ quên không xử lý với các chuỗi Unicode tổ hợp.
 * (5): Việc loại bỏ vẫn đảm bảo việc thay thế phù hợp khi các dấu phân tách câu (dấu phảy, dấu chấm...) bị đặt sai chính tả.
-* (6): Giải thuật xử lý có thể đưa vào file `vi-VN.localise.php` của gói ngôn ngữ tuy nhiên sẽ bị hạn chế trong trường hợp người dùng chọn ngôn ngữ mặc định khác vi-VN.
+* (6): Giải thuật xử lý có thể đưa vào file `vi-VN.localise.php` của gói ngôn ngữ thay vì phải cài đặt plugin này. Tuy nhiên sẽ bị hạn chế trong trường hợp người dùng chọn ngôn ngữ mặc định khác vi-VN.
+
+Ý kiến đóng góp
+---------------
+Mọi ý kiến đóng góp xin liên hệ với: `vinaora` (Gmail, Skype, Yahoo, Facebook, Twitter) hoặc tham gia trực tiếp xây dựng code tại trang https://github.com/vinaora/vinaora-vietalias/
+
