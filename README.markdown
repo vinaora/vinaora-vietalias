@@ -9,7 +9,7 @@ Vinaora Vietnamese Alias
 
 Thông tin chung
 ---------------
-[Vietnamese Alias for Joomla](http://vinaora.com/vinaora-vietalias/) - Tạo trường bí danh (Alias) hay đường link của bài viết, hoặc của bất kỳ một đối tượng nào khác (menu, category, banner, weblink...) trong Joomla bằng chuỗi tiếng Việt không dấu, chữ thường và phân tách giữa các từ bằng dấu gạch ngang.
+[Vinaora Vietnamese Alias](http://vinaora.com/vinaora-vietalias/) for Joomla là Plugin tạo trường bí danh (Alias) hay đường link của bài viết, hoặc của bất kỳ một đối tượng nào khác (menu, category, banner, weblink...) trong Joomla bằng chuỗi tiếng Việt không dấu, chữ thường và phân tách giữa các từ bằng dấu gạch ngang.
 
 VD: Nếu tiêu đề bài viết là: `Giới thiệu chung về Trường Đại học Bách Khoa Hà Nội` thì bí danh (alias) của nó sẽ là: `gioi-thieu-chung-ve-truong-dai-hoc-bach-khoa-ha-noi`
 
@@ -52,5 +52,5 @@ Chú giải
 
 Ý kiến đóng góp
 ---------------
-Mọi ý kiến đóng góp xin liên hệ với: `vinaora` (Gmail, Skype, Yahoo, Facebook, Twitter) hoặc tham gia trực tiếp xây dựng code tại trang https://github.com/vinaora/vinaora-vietalias/
+Mọi ý kiến đóng góp xin liên hệ với: **vinaora** (Skype, Yahoo, Facebook, Twitter, Gmail) hoặc tham gia trực tiếp xây dựng code tại trang https://github.com/vinaora/vinaora-vietalias/
 
