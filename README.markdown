@@ -35,9 +35,9 @@ Giải thuật chính khi chuyển đổi chuỗi tiếng Việt
 * Bước 4: Chuẩn hóa chuỗi ký tự (đảm bảo các ký tự được phép chỉ gồm `a-z, 0-9` và dấu gạch ngang `-`; thay thế các khoảng trắng bằng 01 dấu gạch ngang...)
 * Kết quả đầu ra: Chuỗi ký tự tiếng Việt không dấu, chữ thường, chỉ gồm các chữ cái tiếng Anh a-z, các chữ số từ 0-9 và phân tách giữa các từ bằng dấu gạch ngang.
 
-Cảnh báo
---------
-* Đối với các đường link, trường bí danh (alias) đã có trước khi cài đặt plugin **Vinaora VietAlias** bạn cần phải xóa trường bí danh và nhấn nút [Lưu] (Save) để plugin tự động tạo chuỗi ký tự mới.
+Lưu ý
+-----
+* Đối với các đường link, trường bí danh (alias) đã có trước khi cài đặt plugin **Vinaora VietAlias** bạn cần phải xóa trường bí danh này và nhấn nút 'Lưu' (Save) để plugin tạo lại chuỗi ký tự mới thay thế.
 * Tính năng tự động hoàn thiện bằng Ajax có thể gặp trục trặc nếu bạn đã vô hiệu hóa thư viện Mootools của Joomla. 
 
 Chú giải
