@@ -1,5 +1,5 @@
  /**
- * @version		$Id: vinaora_vietalias-uncompressed.js 2012-06-17 vinaora $
+ * @version		$Id: vinaora_vietalias.js 2012-06-17 vinaora $
  * @package		Vinaora Vietnamese Alias
  * @subpackage	plg_system_vinaora_vietalias
  * @copyright	Copyright (C) 2010-2012 VINAORA. All rights reserved.
