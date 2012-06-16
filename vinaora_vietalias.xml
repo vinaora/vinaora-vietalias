@@ -24,6 +24,8 @@
 	<languages>
 		<language tag="en-GB">language/en-GB.plg_system_vinaora_vietalias.ini</language>
 		<language tag="en-GB">language/en-GB.plg_system_vinaora_vietalias.sys.ini</language>
+		<language tag="vi-VN">language/vi-VN.plg_system_vinaora_vietalias.ini</language>
+		<language tag="vi-VN">language/vi-VN.plg_system_vinaora_vietalias.sys.ini</language>
 	</languages>
 	<config>
 		<fields name="params">
@@ -38,7 +40,6 @@
 					<option value="0">JNO</option>
 				</field>
 				<field name="auto_complete_on_specific" type="textarea" rows="7" cols="30" default="com_abc,com_xyz" label="PLG_SYSTEM_VINAORA_VIETALIAS_FIELD_AUTO_COMPLETE_ON_SPECIFIC" description="PLG_SYSTEM_VINAORA_VIETALIAS_FIELD_AUTO_COMPLETE_ON_SPECIFIC_DESC" />
-
 			</fieldset>
 		</fields>
 	</config>
