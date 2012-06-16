@@ -25,6 +25,7 @@ Tính năng
 * Không phụ thuộc vào việc đã cài đặt gói ngôn ngữ Việt Nam hay chưa (6)
 * Được đóng gói trong plugin, nên không gây ảnh hưởng khi nâng cấp Joomla
 * Code được nghiên cứu cẩn thận và tối ưu về hiệu suất
+* Tiết kiệm thời gian và công sức
 
 Giải thuật chính khi chuyển đổi chuỗi tiếng Việt
 ------------------------------------------------
@@ -33,6 +34,11 @@ Giải thuật chính khi chuyển đổi chuỗi tiếng Việt
 * Bước 3: Thay thế 11 nguyên âm của tiếng Việt gồm `[a|ă|â],[e|ê],i,[o|ơ],[u|ư],y` (có hoặc không kèm dấu thanh) bằng 5 nguyên âm tiếng Anh tương ứng `a,e,i,o,u,y` và phụ âm `đ/Đ` bằng ký tự `d`
 * Bước 4: Chuẩn hóa chuỗi ký tự (đảm bảo các ký tự được phép chỉ gồm `a-z, 0-9` và dấu gạch ngang `-`; thay thế các khoảng trắng bằng 01 dấu gạch ngang...)
 * Kết quả đầu ra: Chuỗi ký tự tiếng Việt không dấu, chữ thường, chỉ gồm các chữ cái tiếng Anh a-z, các chữ số từ 0-9 và phân tách giữa các từ bằng dấu gạch ngang.
+
+Cảnh báo
+--------
+* Đối với các đường link, trường bí danh (alias) đã có trước khi cài đặt plugin **Vinaora VietAlias** bạn cần phải xóa trường bí danh và nhấn nút [Lưu] (Save) để plugin tự động tạo chuỗi ký tự mới.
+* Tính năng tự động hoàn thiện bằng Ajax có thể gặp trục trặc nếu bạn đã vô hiệu hóa thư viện Mootools của Joomla. 
 
 Chú giải
 --------
