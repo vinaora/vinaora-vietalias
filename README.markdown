@@ -3,6 +3,7 @@ Vinaora Vietnamese Alias
 
 * Homepage: http://vinaora.com/vinaora-vietalias/
 * Sourcecode: https://github.com/vinaora/vinaora-vietalias/
+* Download: https://github.com/vinaora/vinaora-vietalias/downloads
 * Pull Requests: https://github.com/vinaora/vinaora-vietalias/pulls
 * Issues: https://github.com/vinaora/vinaora-vietalias/issues
 

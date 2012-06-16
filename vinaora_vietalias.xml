@@ -13,6 +13,7 @@
 		<filename>index.html</filename>
 		<filename>helper.php</filename>
 		<filename>output.php</filename>
+		<filename>README.markdown</filename>
 		<filename plugin="vinaora_vietalias">vinaora_vietalias.php</filename>
 	</files>
 	<media folder="media" destination="plg_system_vinaora_vietalias">
