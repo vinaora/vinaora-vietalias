@@ -32,7 +32,7 @@ Giải thuật chính khi chuyển đổi chuỗi tiếng Việt
 * Bước 2: Thay thế các ký tự đặc biệt (@#$%^&*...) bằng các khoảng trắng
 * Bước 3: Thay thế 11 nguyên âm của tiếng Việt gồm `[a|ă|â],[e|ê],i,[o|ơ],[u|ư],y` (có hoặc không kèm dấu thanh) bằng 5 nguyên âm tiếng Anh tương ứng `a,e,i,o,u,y` và phụ âm `đ/Đ` bằng ký tự `d`
 * Bước 4: Chuẩn hóa chuỗi ký tự (đảm bảo các ký tự được phép chỉ gồm `a-z, 0-9` và dấu gạch ngang `-`; thay thế các khoảng trắng bằng 01 dấu gạch ngang...)
-* **Kết quả đầu ra**: Chuỗi ký tự tiếng Việt không dấu, chữ thường, chỉ gồm các chữ cái tiếng Anh a-z, các chữ số từ 0-9 và phân tách giữa các từ bằng dấu gạch ngang.
+* Kết quả đầu ra: Chuỗi ký tự tiếng Việt không dấu, chữ thường, chỉ gồm các chữ cái tiếng Anh a-z, các chữ số từ 0-9 và phân tách giữa các từ bằng dấu gạch ngang.
 
 Chú giải
 --------
