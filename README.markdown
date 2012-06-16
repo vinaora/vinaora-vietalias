@@ -35,9 +35,9 @@ Giải thuật chính khi chuyển đổi chuỗi tiếng Việt
 
 Chú giải
 --------
-* (1): Phần soạn thảo được xác định qua biến HTTP Request $task=edit
-* (2): Các trang chuyên biệt được xác định qua biến HTTP Request $option=com_xyz
+* (1): Trang soạn thảo được xác định qua biến HTTP Request `$task=edit`
+* (2): Các trang chuyên biệt được xác định qua biến HTTP Request `$option=com_xyz`
 * (3): Sử dụng Ajax + thư viện Mootools của Joomla.
 * (4): Nhiều plugin/tool bỏ quên không xử lý với các chuỗi Unicode tổ hợp.
 * (5): Việc loại bỏ vẫn đảm bảo việc thay thế phù hợp khi các dấu phân tách câu (dấu phảy, dấu chấm...) bị đặt sai chính tả.
-* (6): Giải thuật xử lý có thể đưa vào file 'vi-VN.localise.php' của gói ngôn ngữ tuy nhiên sẽ bị hạn chế trong trường hợp người dùng chọn ngôn ngữ mặc định khác vi-VN.
+* (6): Giải thuật xử lý có thể đưa vào file `vi-VN.localise.php` của gói ngôn ngữ tuy nhiên sẽ bị hạn chế trong trường hợp người dùng chọn ngôn ngữ mặc định khác vi-VN.
