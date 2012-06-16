@@ -17,12 +17,12 @@ Tính năng
 * Tương thích hoàn toàn với Joomla 2.5, Joomla 1.6/1.7
 * Xử lý triệt để vấn đề lỗi, mất ký tự trong các đường link, trường Alias của Joomla
 * Tạo các đường link thực sự thân thiện và SEO hiệu quả
-* Cho phép nạp trên tất cả các trang hoặc chỉ nạp trên một số trang chuyên biệt
-* Tự động hoàn thiện trường Alias (bí danh) ngay khi gõ phần tiêu đề
-* Hỗ trợ cả tiếng Việt Unicode dựng sẵn và Unicode tổ hợp
-* Loại bỏ hoàn toàn các ký tự đặc biệt
+* Cho phép nạp trên tất cả các trang có phần soạn thảo (1) hoặc chỉ nạp trên một số trang chuyên biệt (2)
+* Tự động hoàn thiện (3) trường Alias (bí danh) ngay khi gõ phần tiêu đề
+* Hỗ trợ cả tiếng Việt Unicode dựng sẵn và Unicode tổ hợp (4)
+* Loại bỏ hoàn toàn các ký tự đặc biệt (5)
 * Hỗ trợ cả phần tiền sảnh (front-end) và phần hậu sảnh (back-end) của Joomla
-* Không phụ thuộc vào việc đã cài đặt gói ngôn ngữ Việt Nam hay chưa
+* Không phụ thuộc vào việc đã cài đặt gói ngôn ngữ Việt Nam hay chưa (6)
 * Được đóng gói trong plugin, nên không gây ảnh hưởng khi nâng cấp Joomla
 * Code được nghiên cứu cẩn thận và tối ưu về hiệu suất
 
@@ -32,3 +32,12 @@ Giải thuật chính khi chuyển đổi chuỗi tiếng Việt
 * Bước 2: Thay thế các ký tự đặc biệt (@#$%^&*...) bằng các khoảng trắng
 * Bước 3: Thay thế 11 nguyên âm của tiếng Việt gồm [a|ă|â],[e|ê],i,[o|ơ],[u|ư],y (có hoặc không kèm dấu thanh) bằng 5 nguyên âm tiếng Anh tương ứng (a,e,i,o,u,y) và phụ âm đ/Đ bằng ký tự d
 * Bước 4: Chuẩn hóa chuỗi ký tự (đảm bảo các ký tự được phép chỉ gồm a-z, 0-9 và dấu gạch ngang (-); thay thế các khoảng trắng bằng 1 dấu gạch ngang...)
+
+Chú giải
+--------
+* (1): Phần soạn thảo được xác định qua biến HTTP Request $task=edit
+* (2): Các trang chuyên biệt được xác định qua biến HTTP Request $option=com_xyz
+* (3): Sử dụng Ajax + thư viện Mootools của Joomla.
+* (4): Nhiều plugin/tool bỏ quên không xử lý với các chuỗi Unicode tổ hợp.
+* (5): Việc loại bỏ vẫn đảm bảo việc thay thế phù hợp khi các dấu phân tách câu (dấu phảy, dấu chấm...) bị đặt sai chính tả.
+* (6): Giải thuật xử lý có thể đưa vào file 'vi-VN.localise.php' của gói ngôn ngữ tuy nhiên sẽ bị hạn chế trong trường hợp người dùng chọn ngôn ngữ mặc định khác vi-VN.
