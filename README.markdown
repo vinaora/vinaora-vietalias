@@ -34,7 +34,7 @@ Giải thuật chính khi chuyển đổi tiếng Việt
 
 Lưu ý
 -----
-* Đối với các đường link, trường bí danh (alias) đã có trước khi cài đặt plugin **Vinara VietAlias** bạn cần phải tự tay xóa từng trường bí danh và nhân nút 'Lưu' (Save) để plugin tạo lại chuỗi ký tự mới thay thế.
+* Đối với các đường link, trường bí danh (alias) đã có trước khi cài đặt plugin **Vinaora VietAlias** bạn cần phải tự tay xóa từng trường bí danh và nhân nút 'Lưu' (Save) để plugin tạo lại chuỗi ký tự mới thay thế.
 * Tính năng tự động hoàn thiện bằng Ajax có thể gặp trục trặc nếu bạn đã vô hiệu hóa thư viện Mootools của Joomla.
 
 Chú giải
