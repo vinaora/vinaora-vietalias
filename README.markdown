@@ -1,9 +1,6 @@
 Vinaora Vietnamese Alias (VietAlias)
 ====================================
 
-Giới thiệu chung
-----------------
-
 [Vinaora Vietnamese Alias](http://vinaora.com/vinaora-vietalias/) (VietAlias) là Plugin tạo trường bí danh (Alias) và đường link của bài viết, hoặc của bất kỳ một đối tượng nào khác (menu, category, banner, weblink...) trong Joomla bằng chuỗi tiếng Việt không dấu, chữ thường và phân tách giữa các từ bằng dấu gạch ngang.
 
 VD: Nếu tiêu đề bài viết là: `Giới thiệu chung về Trường Đại học Bách Khoa Hà Nội` thì bí danh (alias) của nó sẽ là: `gioi-thieu-chung-ve-truong-dai-hoc-bach-khoa-ha-noi`
@@ -11,8 +8,9 @@ VD: Nếu tiêu đề bài viết là: `Giới thiệu chung về Trươ
 Tính năng
 ---------
 
-* Hoàn toàn miễn phí
+* Mã nguồn mở, hoàn toàn miễn phí
 * Tương thích hoàn toàn với Joomla 2.5, Joomla 1.6/1.7
+* Hỗ trợ tất cả các thành phần mở rộng (extension) được cài đặt thêm
 * Xử lý triệt để vấn đề lỗi, mất ký tự (1) trong các đường link, trường bí danh (Alias) của Joomla
 * Tạo các đường link thực sự an toàn (2), thân thiện giúp SEO hiệu quả
 * Cho phép nạp trên tất cả các trang khi soạn thảo (3) hoặc chỉ nạp trên một số trang chuyên biệt (4)
@@ -22,7 +20,7 @@ Tính năng
 * Hỗ trợ cả phần tiền sảnh (front-end) và phần hậu sảnh (back-end) của Joomla
 * Không phụ thuộc vào việc đã cài đặt gói ngôn ngữ Việt Nam hay chưa (8)
 * Được đóng gói trong plugin, nên không gây ảnh hưởng khi nâng cấp Joomla
-* Code được nghiên cứu cẩn thận và tối ưu về hiệu suất
+* Mã nguồn được nghiên cứu cẩn thận và tối ưu về hiệu suất
 * Tiết kiệm thời gian và công sức khi nhập liệu
 
 Giải thuật chính khi chuyển đổi chuỗi tiếng Việt
