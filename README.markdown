@@ -1,20 +1,16 @@
 Vinaora Vietnamese Alias (VietAlias)
 ====================================
 
-* Homepage: http://vinaora.com/
-* Sourcecode: https://github.com/vinaora/vinaora-vietalias/
-* Download: https://github.com/vinaora/vinaora-vietalias/downloads
-* Pull Requests: https://github.com/vinaora/vinaora-vietalias/pulls
-* Issues: https://github.com/vinaora/vinaora-vietalias/issues
-
 Giới thiệu chung
 ----------------
+
 [Vinaora Vietnamese Alias](http://vinaora.com/vinaora-vietalias/) (VietAlias) là Plugin tạo trường bí danh (Alias) và đường link của bài viết, hoặc của bất kỳ một đối tượng nào khác (menu, category, banner, weblink...) trong Joomla bằng chuỗi tiếng Việt không dấu, chữ thường và phân tách giữa các từ bằng dấu gạch ngang.
 
 VD: Nếu tiêu đề bài viết là: `Giới thiệu chung về Trường Đại học Bách Khoa Hà Nội` thì bí danh (alias) của nó sẽ là: `gioi-thieu-chung-ve-truong-dai-hoc-bach-khoa-ha-noi`
 
 Tính năng
 ---------
+
 * Hoàn toàn miễn phí
 * Tương thích hoàn toàn với Joomla 2.5, Joomla 1.6/1.7
 * Xử lý triệt để vấn đề lỗi, mất ký tự (1) trong các đường link, trường bí danh (Alias) của Joomla
@@ -31,6 +27,7 @@ Tính năng
 
 Giải thuật chính khi chuyển đổi chuỗi tiếng Việt
 ------------------------------------------------
+
 * Bước 1: Loại bỏ 5 dấu thanh (huyền, hỏi, ngã, sắc, nặng) nếu có ký tự tiếng Việt Unicode tổ hợp
 * Bước 2: Thay thế các ký tự đặc biệt `@#$%^&*-_+=`... bằng các khoảng trắng
 * Bước 3: Thay thế 11 nguyên âm của tiếng Việt gồm `[a|ă|â],[e|ê],i,[o|ơ],[u|ư],y` (có hoặc không kèm dấu thanh) bằng 5 nguyên âm tiếng Anh tương ứng `a,e,i,o,u,y` và phụ âm `đ/Đ` bằng ký tự `d`
@@ -39,11 +36,13 @@ Giải thuật chính khi chuyển đổi chuỗi tiếng Việt
 
 Lưu ý
 -----
+
 * Đối với các đường link, trường bí danh (alias) đã có trước khi cài đặt plugin **Vinaora VietAlias** bạn cần phải xóa trường bí danh này và nhấn nút 'Lưu' (Save) để plugin tạo lại chuỗi ký tự mới thay thế.
 * Tính năng tự động hoàn thiện bằng Ajax có thể gặp trục trặc nếu bạn đã vô hiệu hóa thư viện Mootools của Joomla.
 
 Chú giải
 --------
+
 * (1): Hàm xử lý chuỗi ký tự Unicode theo mặc định của Joomla làm mất một số ký tự tiếng Việt
 * (2): Lọc bỏ các ký tự không được phép
 * (3): Trang soạn thảo được xác định qua biến HTTP Request `$task=edit`
@@ -55,6 +54,7 @@ Chú giải
 
 Ủng hộ
 ------
+
 Để ủng hộ cho việc duy trì và phát triển plugin Vinara Vietnamese Alias (VietAlias) bạn có thể chọn một trong các cách sau:
 
 Cài đặt và chia sẻ với mọi người ^_^
@@ -63,7 +63,17 @@ Mua Hosting tại 01 trong 02 nhà cung cấp Hosting nổi tiếng:
 * [InmotionHosting](https://secure1.inmotionhosting.com/cgi-bin/gby/clickthru.cgi?id=vinaora&page=5) (Link: http://goo.gl/dfN4F ): chạy nhanh và tin cậy (khuyến cáo)
 * [Hostgator](http://secure.hostgator.com/~affiliat/cgi-bin/affiliates/clickthru.cgi?id=vinaora) (Link: http://goo.gl/PoRVo ): giá rẻ và được nhiều website sử dụng (sử dụng mã giảm giá `H25PERCENT` để giảm ngay 25%)
 
+Link
+----
+
+* Homepage: http://vinaora.com/
+* Sourcecode: https://github.com/vinaora/vinaora-vietalias/
+* Download: https://github.com/vinaora/vinaora-vietalias/downloads
+* Pull Requests: https://github.com/vinaora/vinaora-vietalias/pulls
+* Issues: https://github.com/vinaora/vinaora-vietalias/issues
+
 Ý kiến đóng góp
 ---------------
+
 Mọi ý kiến đóng góp xin liên hệ với: **vinaora** (Skype, Yahoo, Facebook, Twitter, Gmail) hoặc tham gia trực tiếp xây dựng code tại trang https://github.com/vinaora/vinaora-vietalias/
 
