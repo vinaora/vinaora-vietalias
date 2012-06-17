@@ -15,6 +15,7 @@ VD: Nếu tiêu đề bài viết là: `Giới thiệu chung về Trươ
 
 Tính năng
 ---------
+* Hoàn toàn miễn phí
 * Tương thích hoàn toàn với Joomla 2.5, Joomla 1.6/1.7
 * Xử lý triệt để vấn đề lỗi, mất ký tự (1) trong các đường link, trường bí danh (Alias) của Joomla
 * Tạo các đường link thực sự an toàn (2), thân thiện giúp SEO hiệu quả
