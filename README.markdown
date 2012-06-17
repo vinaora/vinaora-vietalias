@@ -25,6 +25,7 @@ Tính năng
 
 Giải thuật chính khi chuyển đổi tiếng Việt
 ------------------------------------------
+
 * Bước 1: Loại bỏ 5 dấu thanh (huyền, hỏi, ngã, sắc, nặng) nếu có tiếng Việt Unicode tổ hợp
 * Bước 2: Thay thế các ký tự đặc biệt `@#$%^&*-_+=`... bằng các khoảng trắng
 * Bước 3: Thay thế 11 nguyên âm của tiếng Việt gồm `[a|ă|â],[e|ê],i,[o|ơ],[u|ư],y` (có hoặc không kèm dấu thanh) bằng 05 nguyên âm tiếng Anh tương ứng `a,e,i,o,u,y` và phụ âm `đ/Đ` bằng ký tự `d`
@@ -45,7 +46,7 @@ Chú giải
 * (4): Các trang chuyên biệt được xác định qua biến HTTP Request `$option=com_xyz`
 * (5): Sử dụng Ajax + thư viện Mootools của Joomla.
 * (6): Nhiều plugin/tool bỏ quên không xử lý với các chuỗi Unicode tổ hợp.
-* (7): Quá trình loại bỏ vẫn đảm bảo việc thay thế phù hợp khi các dấu phân tách câu (dấu phảy, dấu chấm...) bị đặc sai chính tả.
+* (7): Quá trình loại bỏ vẫn đảm bảo việc thay thế phù hợp khi các dấu phân tách câu (dấu phảy, dấu chấm...) bị đặt sai chính tả.
 * (8): Giải thuật xử lý có thể được đưa vào file `vi-VN.localise.php` của gói ngôn ngữ tiếng Việt (vi-VN) thay vì phải cài đặt plugin này. Tuy nhiên trong trường hợp người quản trị chưa cài gói ngôn ngữ vi-VN hoặc chọn ngôn ngữ khác làm ngôn ngữ mặc định thay vì vi-VN thì lỗi mất ký tự tiếng Việt vẫn xảy ra.
 
 Ủng hộ
@@ -53,7 +54,7 @@ Chú giải
 
 Để ủng hộ cho việc duy trì và phát triển plugin Vinaora Vietnamese Alias (VietAlias), bạn có thể chọn một trong các cách sau:
 
-Cài đặt và chi sẻ với mọi người ^_^
+Cài đặt và chia sẻ với mọi người ^_^
 
 Mua Hosting tại 01 trong 02 nhà cung cấp Hosting nổi tiếng:
 
