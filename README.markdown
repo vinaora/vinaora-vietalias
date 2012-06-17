@@ -57,9 +57,10 @@ Chú giải
 Để ủng hộ cho việc duy trì và phát triển plugin Vinara Vietnamese Alias (VietAlias) bạn có thể chọn một trong các cách sau:
 
 Cài đặt và chia sẻ với mọi người ^_^
+
 Mua Hosting tại 01 trong 02 nhà cung cấp Hosting nổi tiếng:
-* [InmotionHosting](https://secure1.inmotionhosting.com/cgi-bin/gby/clickthru.cgi?id=vinaora&page=5) (khuyến cáo)
-* [Hostgator](http://secure.hostgator.com/~affiliat/cgi-bin/affiliates/clickthru.cgi?id=vinaora) (sử dụng mã giảm giá 25%: H25PERCENT)
+* [InmotionHosting](https://secure1.inmotionhosting.com/cgi-bin/gby/clickthru.cgi?id=vinaora&page=5): chạy nhanh và tin cậy (khuyến cáo)
+* [Hostgator](http://secure.hostgator.com/~affiliat/cgi-bin/affiliates/clickthru.cgi?id=vinaora): giá rẻ và được nhiều website sử dụng (sử dụng mã giảm giá `H25PERCENT` để giảm ngay 25%)
 
 Ý kiến đóng góp
 ---------------
