@@ -43,14 +43,20 @@ Lưu ý
 
 Chú giải
 --------
-* (1): Hàm xử lý chuỗi ký tự Unicode mặc định của Joomla làm mất một số ký tự tiếng Việt
+* (1): Hàm xử lý chuỗi ký tự Unicode theo mặc định của Joomla làm mất một số ký tự tiếng Việt
 * (2): Lọc bỏ các ký tự không được phép
 * (3): Trang soạn thảo được xác định qua biến HTTP Request `$task=edit`
 * (4): Các trang chuyên biệt được xác định qua biến HTTP Request `$option=com_xyz`
 * (5): Sử dụng Ajax + thư viện Mootools của Joomla.
 * (6): Nhiều plugin/tool bỏ quên không xử lý với các chuỗi Unicode tổ hợp.
-* (7): Việc loại bỏ vẫn đảm bảo việc thay thế phù hợp khi các dấu phân tách câu (dấu phảy, dấu chấm...) bị đặt sai chính tả.
-* (8): Giải thuật xử lý có thể đưa vào file `vi-VN.localise.php` của gói ngôn ngữ tiếng Việt (vi-VN) thay vì phải cài đặt plugin này. Tuy nhiên sẽ bị mất hiệu lực trong trường hợp người dùng chưa cài gói ngôn ngữ vi-VN hoặc chọn ngôn ngữ mặc định khác vi-VN.
+* (7): Quá trình loại bỏ vẫn đảm bảo việc thay thế phù hợp khi các dấu phân tách câu (dấu phảy, dấu chấm...) bị đặt sai chính tả.
+* (8): Giải thuật xử lý có thể đưa vào file `vi-VN.localise.php` của gói ngôn ngữ tiếng Việt (vi-VN) thay vì phải cài đặt plugin này. Tuy nhiên trong trường hợp người quản trị chưa cài gói ngôn ngữ vi-VN hoặc chọn ngôn ngữ khác làm ngôn ngữ mặc định thay vì vi-VN thì lỗi mất ký tự tiếng Việt vẫn xảy ra.
+
+Ủng hộ
+------
+Để ủng hộ cho việc duy trì và phát triển plugin Vinara Vietnamese Alias (VietAlias) bạn có thể chọn một trong các cách sau:
+* Cài đặt và chia sẻ với mọi người ^_^
+* Mua Hosting tại 01 trong 02 nhà cung cấp Hosting nổi tiếng: [InmotionHosting](https://secure1.inmotionhosting.com/cgi-bin/gby/clickthru.cgi?id=vinaora&page=5) hoặc [Hostgator](http://secure.hostgator.com/~affiliat/cgi-bin/affiliates/clickthru.cgi?id=vinaora) (sử dụng mã giảm giá 25%: H25PERCENT)
 
 Ý kiến đóng góp
 ---------------
