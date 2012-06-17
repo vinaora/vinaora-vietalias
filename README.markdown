@@ -59,8 +59,8 @@ Chú giải
 Cài đặt và chia sẻ với mọi người ^_^
 
 Mua Hosting tại 01 trong 02 nhà cung cấp Hosting nổi tiếng:
-* [InmotionHosting](https://secure1.inmotionhosting.com/cgi-bin/gby/clickthru.cgi?id=vinaora&page=5) (http://goo.gl/dfN4F): chạy nhanh và tin cậy (khuyến cáo)
-* [Hostgator](http://secure.hostgator.com/~affiliat/cgi-bin/affiliates/clickthru.cgi?id=vinaora) (http://goo.gl/PoRVo): giá rẻ và được nhiều website sử dụng (sử dụng mã giảm giá `H25PERCENT` để giảm ngay 25%)
+* [InmotionHosting](https://secure1.inmotionhosting.com/cgi-bin/gby/clickthru.cgi?id=vinaora&page=5) (Link: http://goo.gl/dfN4F ): chạy nhanh và tin cậy (khuyến cáo)
+* [Hostgator](http://secure.hostgator.com/~affiliat/cgi-bin/affiliates/clickthru.cgi?id=vinaora) (Link: http://goo.gl/PoRVo ): giá rẻ và được nhiều website sử dụng (sử dụng mã giảm giá `H25PERCENT` để giảm ngay 25%)
 
 Ý kiến đóng góp
 ---------------
