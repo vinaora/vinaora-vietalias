@@ -1,7 +1,7 @@
 Vinaora Vietnamese Alias (VietAlias)
 ====================================
 
-[Vinaora Vietnamese Alias](http://vinaora.com/vinaora-vietalias/) (VietAlias) là Plugin tạo trường bí danh (Alias) và đường link của bài viết, hoặc của bất kỳ một đối tượng nào khác (menu, category, banner, weblink...) trong Joomla bằng chuỗi tiếng Việt không dấu, chữ thường và phân tách giữa các từ bằng dấu gạch ngang.
+[Vinaora Vietnamese Alias](http://vinaora.com/vinaora-vietalias/) (VietAlias) là Plugin tạo trường bí danh (Alias) và đường link của bài viết, hoặc của bất kỳ một đối tượng nào khác (menu, category, banner, weblink...) trong Joomla bằng chuỗi tiếng Việt không dấu, chữ thường và phân tách giữa các từ bằng dấu gạch ngang. Điểm đặc biệt là trường Alias sẽ được sinh tự động bằng Ajax ngay khi đang gõ phần tiêu đề của bài viết nên sẽ trực quan và tiết kiệm được nhiều thời gian nhập liệu.
 
 VD: Nếu tiêu đề bài viết là: 
 
