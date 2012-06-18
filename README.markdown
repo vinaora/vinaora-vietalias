@@ -3,13 +3,19 @@ Vinaora Vietnamese Alias (VietAlias)
 
 [Vinaora Vietnamese Alias](http://vinaora.com/vinaora-vietalias/) (VietAlias) là Plugin tạo trường bí danh (Alias) và đường link của bài viết, hoặc của bất kỳ một đối tượng nào khác (menu, category, banner, weblink...) trong Joomla bằng chuỗi tiếng Việt không dấu, chữ thường và phân tách giữa các từ bằng dấu gạch ngang.
 
-VD: Nếu tiêu đề bài viết là: `Giới thiệu chung về Trường Đại học Bách Khoa Hà Nội` thì bí danh (alias) của nó sẽ là: `gioi-thieu-chung-ve-truong-dai-hoc-bach-khoa-ha-noi`
+VD: Nếu tiêu đề bài viết là: 
+
+`Giới thiệu chung về Trường Đại học Bách Khoa Hà Nội` 
+
+thì bí danh (alias) của nó sẽ là: 
+
+`gioi-thieu-chung-ve-truong-dai-hoc-bach-khoa-ha-noi`
 
 Tại sao bạn cần plugin này?
 ---------------------------
 Joomla cài đặt 2 hàm để xử lý và tạo chuỗi ký tự an toàn cho trường Alias và các đường link. Hai hàm này bao gồm: `stringURLSafe` và `stringURLUnicodeSlug` được đặt trong file `/libraries/joomla/filter/output.php` (trước 24/11/2011 có tên là filteroutput.php).
 
-Tuy nhiên hàm `stringURLSafe` luôn làm mất các ký tự tiếng Việt, còn hàm `stringURLUnicodeSlug` thì lại sinh ra các đường link để nguyên các ký tự tiếng Việt và để lại nhiều ký tự không cần thiết đối với một trang web tiếng Việt.
+Tuy nhiên hàm `stringURLSafe` luôn làm mất một số ký tự tiếng Việt, còn hàm `stringURLUnicodeSlug` thì lại sinh ra các đường link để nguyên các ký tự tiếng Việt và để lại nhiều ký tự không cần thiết đối với một trang web tiếng Việt.
 
 Plugin này sẽ tập trung cải thiện hàm `stringURLSafe` để phù hợp với đặc trưng riêng của ngôn ngữ tiếng Việt.
 
