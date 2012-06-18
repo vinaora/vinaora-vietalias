@@ -32,8 +32,8 @@ function vt_remove_special_characters(str)
 	return str;
 };
 
-/** 
- * Remove or Replace special symbols with spaces
+/**
+ * Replace Vietnamese vowels with diacritic and Letter D with Stroke with corresponding English characters
  */
 function vt_replace_vietnamese_characters(str)
 {

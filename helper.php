@@ -53,7 +53,7 @@ class plgSystemVinaora_VietAliasHelper{
 	public static function vt_remove_special_characters($str, $remove=true){
 		
 		// Remove or replace with spaces
-		$substitute = $remove ? "": " ";
+		$substitute = $remove ? "" : " ";
 		
 		$str = preg_replace("/[\x{0021}-\x{002D}\x{002F}\x{003A}-\x{0040}\x{005B}-\x{0060}\x{007B}-\x{007E}\x{00A1}-\x{00BF}]/u", $substitute, $str);
 		
