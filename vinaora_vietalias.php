@@ -1,6 +1,6 @@
 <?php
  /**
- * @version		$Id: vinaora_vietalias.php 2012-06-17 vinaora $
+ * @version		$Id: vinaora_vietalias.php 2012-07-01 vinaora $
  * @package		Vinaora Vietnamese Alias
  * @subpackage	plg_system_vinaora_vietalias
  * @copyright	Copyright (C) 2010-2012 VINAORA. All rights reserved.
@@ -27,10 +27,13 @@ class plgSystemVinaora_VietAlias extends JPlugin
 	function __construct(& $subject, $config)
 	{
 		parent::__construct($subject, $config);
-		
+	}
+	
+	function onAfterRoute(){
+
 		$this->layout = JRequest::getCmd('layout');
 		$this->option = JRequest::getCmd('option');
-
+		
 		if ( $this->layout != 'edit') return;
 		
 		$active = (bool) $this->params->get('active_on');
@@ -40,13 +43,11 @@ class plgSystemVinaora_VietAlias extends JPlugin
 		{
 			require_once dirname(__FILE__).DS.'output.php';
 		}
-
 	}
 
-	function onAfterDispatch()
-	{
+	function onAfterDispatch(){
 		
-		if ( $this->layout != 'edit') return false;
+		if ( $this->layout != 'edit') return;
 		
 		$auto_complete	= (bool) $this->params->get('auto_complete');
 		$pages			= $this->params->get('auto_complete_on_specific');
@@ -57,5 +58,38 @@ class plgSystemVinaora_VietAlias extends JPlugin
 			$document->addScript( rtrim(JURI::root( true ), '/').'/media/plg_system_vinaora_vietalias/js/vinaora_vietalias.js' );
 		}
 		return true;
+	}
+	
+	private function _fixOldAlias($tablename="content"){
+
+		require_once dirname(__FILE__).DS.'output.php';
+		
+		$db =& JFactory::getDBO();
+        $query = $db->getQuery(true);
+		
+		// $query = "SELECT id, title FROM #__$tablename;";
+		$query->select('id, title');
+		$query->from($db->quoteName("#__$tablename"));
+
+		$db->setQuery($query);
+		$rows = $db->loadAssocList();
+		
+		// If found any rows
+		if( !empty($rows) && count($rows) ){
+			foreach ($rows as $row){
+				$id		= (int) $row["id"];
+				$alias	= JFilterOutput::stringURLSafe($row["title"]);
+				
+				// $query	= "UPDATE #__$tablename SET alias='$alias' WHERE id=$id;";
+				$query = $db->getQuery(true);
+				$query->update($db->quoteName("#__$tablename"));
+				$query->set('alias='.$db->quote($alias));
+				$query->where('id='.$db->quote($id));
+				
+				$db->setQuery($query);
+				$result = $db->query();
+			}
+		}
+		
 	}
 }
